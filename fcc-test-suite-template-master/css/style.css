@@ -1,35 +1,188 @@
-#header-img{
-    width: 15%;
+body {
+    background: rgb(240, 232, 232);
+
 }
-.nav-link{
+
+
+
+.header {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-img {
+    width: 60%;
+    margin-left: 6rem;
+}
+
+.nav-link {
     text-decoration: none;
     list-style-type: none;
-    font-size: 20px;
-    display: flex;
-    padding-left: 1.5rem;
-    margin-right: 1.5rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+    margin-right: 1rem;
+    color: rgb(16, 16, 16);
+    font-weight: bold;
+    text-align: center;
 }
-#header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+
+@media screen and (min-width:600px) {
+    #header {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 2rem;
+    }
+
+    #header-img {
+        width: 12rem;
+        margin-left: 4rem;
+    }
+
+    #nav-link {
+        display: flex;
+    }
 }
-#nav-bar{
-    justify-content: right;
-}
-.section1{
+
+
+
+.div-form {
     display: grid;
     justify-items: center;
     align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 }
-#email{
+
+#email {
     display: block;
     padding-left: 0.5rem;
     padding-right: 4rem;
     font-size: 1rem;
 }
-#submit{
-    font-size: 1.5rem;
+
+#submit {
+    font-size: 2rem;
+    background: rgb(250, 219, 18);
     font-weight: bold;
-    background-color: rgb(250, 219, 18);
+    outline: none;
+    border: 0;
+    padding: 0 0.5rem;
+    margin: 0.5rem 2.7rem;
+}
+
+#submit:hover {
+    background: rgb(196, 173, 19);
+
+
+.form-head {
+    font-size: 1.5rem;
+}
+
+.addvert {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.premium {
+    display: flex;
+    padding: 2rem;
+
+}
+
+.premium-img {
+    display: none;
+}
+
+.text {
+    padding-left: 1rem;
+
+}
+
+@media screen and (min-width:650px) {
+    .premium-img {
+        display: block;
+        width: 8rem;
+    }
+
+}
+
+#video {
+    width: 120%;
+}
+
+.div-video {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:700px) {
+    #video {
+        width: 40rem;
+    }
+
+    .div-video {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.badge-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge {
+    border: 1px solid #000;
+    width: 15rem;
+    margin: 3rem 2rem;
+    text-align: center;
+}
+
+.badge-h3 {
+    background: #ccc;
+    margin-top: 0;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.badge-p {
+    font-size: 1.3rem;
+}
+
+@media screen and (min-width:650px) {
+    .badge-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.submit {
+    font-size: 2rem;
+    background: rgb(250, 219, 18);
+    font-weight: bold;
+    outline: none;
+    border: 0;
+    padding: 0 0.5rem;
+    margin: 0.5rem 2.7rem;
+}
+
+.submit:hover {
+    background: rgb(196, 173, 19);
+}
+
+.privacy {
+    background: #ccc;
+    display: grid;
+    justify-items: end;
+}
+
+.privay-foot {
+    padding: 1rem;
 }

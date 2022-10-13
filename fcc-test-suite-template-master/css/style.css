@@ -1,0 +1,35 @@
+#header-img{
+    width: 15%;
+}
+.nav-link{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    display: flex;
+    padding-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-bar{
+    justify-content: right;
+}
+.section1{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+#email{
+    display: block;
+    padding-left: 0.5rem;
+    padding-right: 4rem;
+    font-size: 1rem;
+}
+#submit{
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgb(250, 219, 18);
+}
